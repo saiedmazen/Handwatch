@@ -1,0 +1,349 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.navbar{
+    /* position: fixed; */
+    z-index: 3;
+    width: 100%;
+    padding:  15px 30px;
+    box-shadow: 0 10px 20px rgb(25, 36, 4);
+    position: fixed;
+    top: 0px;
+}
+.navbar-nav .nav-item .nav-link   {
+    color: rgb(12, 117, 117);
+    transition: all 0.5s  ease;
+}
+.navbar-nav .nav-item .nav-link:hover{
+background-color: brown;
+font-size: 15px;
+}
+.dropdown-menu .dropdown-item{
+    color: rgb(12, 117, 117);
+    transition: all 0.5s  ease;
+}
+.dropdown-menu .dropdown-item:hover{
+    background-color: brown;
+    font-size: 15px;
+
+}
+.section_1{
+    margin-top: 50px;
+    background-color: rgb(247, 238, 227);
+}
+.section_1  .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.section_1  .row .div_1 h1{
+    font-size: 50px;
+    width: 400px;
+    font-weight: 700;
+}
+.section_1  .row .div_1 p{
+    line-height:1.6;
+    font-weight: 500;
+    font-size: 18px;
+    padding: 30px 0;
+}
+.section_1  .row .div_1 a{
+    padding: 15px 29px;
+    background: red;
+    color:white;
+    font-size: 17px;
+    font-weight: bolder;
+    border-radius: 10px;
+    text-decoration: none;
+
+}
+
+.word1 h2{
+    font-size: 40px;
+    font-weight: bolder;
+    
+}
+.section_imgs{
+    margin-top: 50px;
+    margin-right: 180px;
+}
+.img_1{
+    padding: 0;
+    overflow: hidden;
+    
+}
+.img_2{
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+.img_3{
+    height: 370px;
+} 
+.section_4 .h_2{
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+    color: black;
+    line-height: 1;
+    margin-top: 40px;
+}
+.section_4 .p_1{
+    color: black;
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+.section_4 .div_2word{
+    text-align: center;
+
+}
+.box{
+    position: relative;
+    border-bottom: 3 solid rgb(12, 117, 117);
+}
+.watch img{
+    width: 100%;
+}
+.watch i{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    font-size: 30px;
+    opacity: 0;
+    transition: all .5s ease;
+}
+ .box .watch .a_2{
+    text-decoration: none;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    background-color: #ff2020;
+    padding: 20px;
+    opacity: 0;
+    transition: all .5s ease;
+} 
+
+.watch i:hover{
+    opacity: 1;
+    transition: all .5s ease;
+}
+.watch .a_2:hover{
+    opacity: 1;
+    transform: all 0.5s ease;
+    
+}
+.section_4 .text{
+    padding-top:30px ;
+}
+.text h3  {
+    padding-top: 30px;
+}
+.text h3 a{
+    text-decoration: none;
+    color: black;
+}
+.text p{
+    padding: 10px 0 20px 0;
+    left: 140px;
+    font-size: 20px;
+    font-weight: 400px;
+}
+.section_5_watch_word{
+    margin: 40px 20px 0;
+}
+
+.word_1_left h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.word_1_left p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.word_1_left a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff2020;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+.word .img_6_left{
+    margin-top: 20px;
+}
+.section_5_watch_word_2{
+    margin-top: 40px;
+}
+
+.word_1_right h3{
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 30px;
+}
+.word_1_right p{
+    font-size: 20px;
+    font-weight: 300;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    width: 650px;
+   
+}
+.word_1_right a {
+    text-decoration: none;
+    color: white;
+    background-color: #ff2020;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    
+}
+.word .img_6_left{
+    margin-top: 20px;
+}
+.section_6_word_icons{
+    margin-top: 40px;
+}
+.section_6_word_icons .container{
+    background-color: #ff2020;
+    padding: 10px 30px 0px 30px;
+}
+.section_6_word_icons .container .row{
+    display: flex;
+    justify-content: space-around;
+}
+.list_1 i{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+.list_1 h6{
+    color: white;
+    font-size: 20px;
+    font-weight:400px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.list_1 p{
+    color: white;
+    font-size: 16px;
+    font-weight:200px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.list_2 i{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+.list_2 h6{
+    color: white;
+    font-size: 20px;
+    font-weight:400px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.list_2 p{
+    color: white;
+    font-size: 16px;
+    font-weight:200px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+
+.list_3 i{
+    font-size: 30px;
+    margin: 25px 0px;
+}
+.list_3 h6{
+    color: white;
+    font-size: 20px;
+    font-weight:400px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.list_3 p{
+    color: white;
+    font-size: 16px;
+    font-weight:200px;
+    letter-spacing: 1px;
+    margin-top: 10px;
+}
+.fooder_img{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.list_fooder_1 {
+    margin-top: 10px;
+    padding-top: 10px;
+}
+.list_fooder_1 p a{
+   text-decoration: none;
+}
+.list_fooder_2  {
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+.list_fooder_2 p a{
+    text-decoration: none;
+}
+.list_fooder_3 {
+    margin-top: 10px;
+    padding-top: 10px;
+
+}
+.list_fooder_3 p a{
+    text-decoration: none;
+}
+.fooder_under{
+margin:0 140px 0 140px ;
+}
+.link_social_media{
+    font-size: 20px;
+}
+.button_page{
+
+}
+.buttom_1{
+
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    transition: all ease 0,5s;
+}
+.buttom_1:hover{
+    background-color: brown;
+    font-size: 15px;
+}
+.buttom_2{
+    margin-left: 15px;
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    transition: all ease 0,5s;
+}
+.buttom_2:hover{
+    background-color: brown;
+    font-size: 15px;
+}
